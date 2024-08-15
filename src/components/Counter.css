@@ -1,0 +1,45 @@
+    .counter-container {
+    background-color: #d4de15;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .counter-container h2 {
+    font-size: 2rem;
+    margin: 0 0 20px;
+    color: #333;
+  }
+  
+  .counter-container button {
+    background-color: #ea4a00;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .counter-container button:hover {
+    background-color: #3700b3;
+  }
+  
+  .counter-container button:disabled {
+    background-color: #f500c8;
+    cursor: not-allowed;
+  }
+  
+  .counter-container h3 {
+    font-size: 1.2rem;
+    margin: 20px 0 10px;
+    color: #2912f5;
+  }
+  
+  
+  
